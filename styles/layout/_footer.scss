@@ -1,0 +1,96 @@
+.footer {
+  background-color: $color-primary;
+  color: $color-font-secondary;
+}
+
+.footer__container {
+  width: 300px;
+  padding-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 12px;
+  font-size: 11px;
+  line-height: 1.36;
+
+  @media screen and (min-width: 640px) {
+    width: 600px;
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 960px) {
+    width: 810px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1080px;
+  }
+}
+
+.footer__copyright {
+  text-align: left;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.footer-items__container {
+  font-weight: 400;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer-items__list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.footer-items__list.footer-link {
+  margin-bottom: 75px;
+
+  & a {
+    color: $color-font-secondary;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 640px) {
+    text-align: right;
+    margin-top: -50px;
+    margin-bottom: 17px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
+}
+
+.footer-pay-logo__container {
+  width: 296px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 640px) {
+    width: 589px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1080px;
+    border-top: 1px #fff solid;
+  }
+}
+
+.footer-pay-logo__img {
+  width: 37px;
+  max-height: 30px;
+  object-fit: contain;
+
+  @media screen and (min-width: 640px) {
+    width: 73px;
+    max-height: 50px;
+  }
+}

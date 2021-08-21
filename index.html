@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="msapplication-TileColor" content="#1145AC">
+  <meta name="theme-color" content="#1145AC">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Автобот - поисковая система</title>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader__container">
+      <span class="preloader__circle"></span>
+      <span class="preloader__circle"></span>
+      <span class="preloader__circle"></span>
+      <span class="preloader__circle"></span>
+    </div>
+  </div>
+  <header class="header">
+    <div class="header__container">
+      <a href="#">
+        <img class="header__logo" src="./images/autobot-logo.png" alt="автобот">
+      </a>
+        <div class="btn__container">
+          <button class="enter">Вход</button>
+          <button class="registration">Регистрация</button>
+        </div>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <h1 class="hero__title">Автомобильная поисковая система</h1>
+      <h2 class="hero__description">Чтобы быстрее оказаться у нужного автомобиля от проверенного продавца</h2>
+    </div>
+    <div class="main-container">
+      <h3 class="main-container__title">Возможности</h3>
+      <ul class="betefits-list">
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Все объявления на одной площадке</h3>
+          <p class="betefit-item__description">Объявления о продаже автомобилей со всех досок объявлений Беларуси на
+            одной площадке. Зачем смотреть где-то ещё?</p>
+          <p class="benefit-text-style">На Автоботе более</p>
+          <p class="benefit-number-style">100 000</p>
+          <p class="benefit-second-text-style">объявлений</p>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Проверка по телефону</h3>
+          <p class="betefit-item__description">Проверьте номер продавца по базе Автобота и узнайте сколько объявлений он
+            размещал за последний год. Возможно это перекуп.</p>
+          <picture>
+            <source srcset="./images/jpeg/phone-check-960.jpg" media="(max-width: 960px)">
+            <source srcset="./images/jpeg/phone-check-1200.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/jpeg/phone-check-over1200.jpg" media="(min-width: 1200px)">
+            <img class="betefit-item__picture" src="./images/jpeg/phone-check-960.jpg" alt="Проверка по телефону"></img>
+          </picture>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Мониторинг объявлений</h3>
+          <p class="betefit-item__description">Следите за появлением нужного автомобиля в режиме реального
+            времени. Звоните первым и перехватывайте выгодный вариант.</p>
+          <picture>
+            <source srcset="./images/jpeg/monitoring-ads-960.jpg" media="(max-width: 960px)">
+            <source srcset="./images/jpeg/monitoring-ads-1200.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/jpeg/monitoring-ads-over1200.jpg" media="(min-width: 1200px)">
+            <img class="betefit-item__picture" src="./images/jpeg/monitoring-ads-960.jpg"
+              alt="Мониторинг объявлений"></img>
+          </picture>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Анализ цены</h3>
+          <p class="betefit-item__description">Узнайте, на сколько цена автомобиля отличается от среднерыночной.
+            Ориентируйтесь в ценах быстрее.</p>
+          <picture>
+            <source srcset="./images/jpeg/price-analysis-960.jpg" media="(max-width: 960px)">
+            <source srcset="./images/jpeg/price-analysis-1200.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/jpeg/price-analysis-over1200.jpg" media="(min-width: 1200px)">
+            <img class="betefit-item__picture" src="./images/jpeg/price-analysis-960.jpg" alt="Анализ цены"></img>
+          </picture>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Уведомления в мессенджеры</h3>
+          <p class="betefit-item__description">Занимайтесь своими делами, Автобот моментально сообщит о появлении
+            нужного авто в Telegram или Viber.</p>
+          <picture>
+            <source srcset="./images/jpeg/messengers-960.jpg" media="(max-width: 960px)">
+            <source srcset="./images/jpeg/messengers-1200.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/jpeg/messengers-over1200.jpg" media="(min-width: 1200px)">
+            <img class="betefit-item__picture" src="/images/jpeg/messengers-960.jpg"
+              alt="Уведомления в мессенджеры"></img>
+          </picture>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Поиск по удаленным объявлениям</h3>
+          <p class="betefit-item__description">Проверьте, не продавался ли интересующий вас автомобиль с другой ценой
+            или пробегом. Анализируйте изменения цен за последний год.</p>
+          <picture>
+            <source srcset="./images/jpeg/search-for-deleted-ads-960.jpg" media="(max-width: 960px)">
+            <source srcset="./images/jpeg/search-for-deleted-ads-1200.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/jpeg/search-for-deleted-ads-over1200.jpg" media="(min-width: 1200px)">
+            <img class="betefit-item__picture" src="./images/jpeg/search-for-deleted-ads-960.jpg"
+              alt="Поиск по удаленным объявлениям"></img>
+          </picture>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">История правок</h3>
+          <p class="betefit-item__description">Узнайте историю продажи автомобиля: как долго продаётся, как менялась
+            цена или описание. Любые изменения в объявлениях Автобот сохранит в истории правок. Эта важная информация
+            поможет в переговорах с продавцом.</p>
+          <picture>
+            <source srcset="./images/jpeg/revision-history-960.jpg" media="(max-width: 960px)">
+            <source srcset="./images/jpeg/revision-history-1200.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/jpeg/revision-history-over1200.jpg" media="(min-width: 1200px)">
+            <img class="betefit-item__picture" src="./images/jpeg/revision-history-960.jpg" alt="История правок"></img>
+          </picture>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Поиск по ключевым словам</h3>
+          <p class="betefit-item__description">Найдите объявления с нужными словами. Например: срочно, гаражное
+            хранение, с НДС.</p>
+          <picture>
+            <source srcset="./images/jpeg/search-by-keywords-960.jpg" media="(max-width: 960px)">
+            <source srcset="./images/jpeg/search-by-keywords-1200.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/jpeg/search-by-keywords-1200.jpg" media="(min-width: 1200px)">
+            <img class="betefit-item__picture" src="./images/jpeg/search-by-keywords-960.jpg"
+              alt="Поиск по ключевым словам">
+          </picture>
+        </li>
+        <li class="betefit-item">
+          <h3 class="betefit-item__title">Автобот незаменим при поиске автомобиля</h3>
+          <p class="betefit-item__description">Зарегестрируйтесь и убедитесь сами</p>
+          <button class="registration">Регистрация</button>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copyright">2016-2021 © Автобот – автомобильная поисковая система. Все права защищены.</p>
+      <div class="footer-items__container">
+        <ul class="footer-items__list footer-information">
+          <li class="footer-items__info">Индивидуальный предприниматель Романчук Сергей Николаевич, УНП 193440708,</li>
+          <li class="footer-items__info">Государственная регистрация от 07.07.2020г. произведена минским горисполкомом.
+          </li>
+          <li class="footer-items__info">Юр. адрес: 220085, г. Минск, ул.Плеханова 59/67</li>
+          <li class="footer-items__info">Время работы: 9:00—17:30 пн—пт.</li>
+          <li class="footer-items__info">Телефон: +375 (44) 724-51-52</li>
+          <li class="footer-items__info">info@autobot.by</li>
+        </ul>
+        <ul class="footer-items__list footer-link">
+          <li class="footer-items__link">
+            <a href="#">Договор публичной оферты</a>
+          </li>
+          <li class="footer-items__link">
+            <a href="#">Правила пользования сайтом</a>
+          </li>
+          <li class="footer-items__link">
+            <a href="#">Общая информация по оплате</a>
+          </li>
+          <li class="footer-items__link">
+            <a href="#">Положение (возмездные услуги)</a>
+          </li>
+          <li class="footer-items__link">
+            <a href="#">Оплата посресдством ЕРИП</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-pay-logo__container">
+        <img class="footer-pay-logo__img" src="images/erip.svg" alt="erip-logo">
+        <img class="footer-pay-logo__img" src="images/visa.svg" alt="visa-logo">
+        <img class="footer-pay-logo__img" src="images/verified-visa.svg" alt="verified-visa-logo">
+        <img class="footer-pay-logo__img" src="images/mastercard.svg" alt="mc-logo">
+        <img class="footer-pay-logo__img" src="images/mactercard-code.svg" alt="mc-code-logo">
+        <img class="footer-pay-logo__img" src="images/bel-card-logo.svg" alt="bel-card-logo">
+        <img class="footer-pay-logo__img" src="images/bel-card.svg" alt="bel-card">
+        <img class="footer-pay-logo__img" src="images/bepaid.svg" alt="bepaid-logo">
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  window.onload = function () {
+    console.log('data is load');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded-hiding');
+    }, 1200);
+  }
+</script>
+
+</html>
